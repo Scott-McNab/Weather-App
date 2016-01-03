@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wee Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+<!-- This is our wee logo. You should replace it with one you've designed, showcasing your abilities. -->
+<header><img src="images/logo.svg" alt="Weather Watcher Logo" /></header>
+
+
+
+<!-- This is the form, where we enter a city. As you can see, we've included some placeholder text to guide the user. -->
+	
+<section id="locationForm" class="animated fadeIn">
+  <label>
+      <h1>Where are you?</h1>
+    <input id="location" type="text" placeholder="SEARCH" />
+      <button id="btnGo" class="animated fadeIn"><img src="images/s.png" /></button>
+  </label>
+</section>
+
+
+<!-- This is where we display the relevant icon (SVG) and description when we've returned it from OpenWeatherMap. -->
+
+<section id="weather" class="fadeIn">
+    
+  <img src="images/default.svg" id="weatherIcon" class="animated fadeIn"/>
+
+    <h2 id="temp" class="animated fadeIn"></h2>
+    
+  <p id="description" class="animated fadeIn"></p>
+
+</section>
+
+    
+    
+
+<!-- Here's the link to our JavaScript that works the magic. -->
+
+<script src="app.js"></script>
+</body>
+</html>

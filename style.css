@@ -1,0 +1,121 @@
+/* Removing margin and padding from everything. */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+
+/* Basic body styling. */
+
+body {
+	color: white;
+	background: #C15858;
+	padding: 2em;
+	font: 62.5% 'Oswald', sans-serif;
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+	}
+
+header img{
+    width: 30%;
+}
+
+/* The CSS for the form. */
+
+#locationForm {
+	width: 90%;
+	height: 14em;
+	max-width: 60em;
+	margin: 20em 45em;
+	}
+
+#locationForm label {
+	display: block;
+	font-size: 4em;
+	font-weight: bold;
+    
+	}
+
+#locationForm input[type="text"] {
+	display: block;
+	float: left;
+	width: 65%;
+	margin-top: 0.8em;
+	padding: 0.6em 0.8em;
+	color: #fff;
+	font-size: 0.6em;
+    font-family: 'Oswald', sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+	border-bottom: 0.08em solid white;
+	-webkit-appearance: none;
+	outline: none;
+	background: none;
+	
+	outline: none;
+	}
+
+/* This is our error style, in case someone submits the form without entering a city. */
+
+.error {
+	border: 0.15em solid rgba(204, 51, 51, 0.75) !important;
+	}
+
+#locationForm img{
+    width: 70%;
+	}
+
+#locationForm #btnGo{
+    float: right;
+	width: 15%;
+    margin-right: 8em;
+    margin-top: 2em;
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+
+#weather {
+	display: none;
+	width: 90%;
+	max-width: 70em;
+	margin: 16em auto;
+	text-align: center;
+	}
+	
+
+	#temp{
+        font-size: 14em;
+        padding-top: 50px;
+        font-weight: 300;
+        height: 400;
+        transform : scale(1,1.25);
+	}
+   
+
+	#weatherIcon{
+        float: left;
+		padding-top: 30px;
+		padding-bottom: 0px;
+        width: 50%;
+	}
+
+
+#weather p {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+	color: white;
+	font-size: 2em;
+	font-weight: 300;
+
+	}
