@@ -7,7 +7,7 @@
 /* Basic body styling. */
 
 body {
-	color: white;
+	color: black;
 	padding: 2em;
     position:fixed;
     font-family: 'Dosis', sans-serif;
@@ -25,10 +25,20 @@ h1{
     color: black;
 }
 
+h2{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+p{
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
 #first a{
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 20px;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2em;
@@ -51,7 +61,7 @@ h1{
 #second a{
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 20px;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2em;
@@ -74,7 +84,7 @@ h1{
 #third a{
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 20px;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2em;
