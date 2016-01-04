@@ -9,7 +9,7 @@ body{
 
 header{
     width: 100%;
-    padding-left: 75em;
+    padding-left: 5em;
 }
 
 #flex{
@@ -44,7 +44,7 @@ h2{
   box-shadow: 2px 2px 2px #bdc3c7;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
-  width: 500px;
+  width: 300px;
 
 }
 		
@@ -58,7 +58,7 @@ blockquote{
   color: #fff;
   font-weight: 300;
   letter-spacing: 0.03em;
-
+margin-top: 10em;
 }
 
 cite{
@@ -68,6 +68,7 @@ cite{
 }
 
 a{
+    float: right;
   align-items: center;
   justify-content: center;
   margin-top: 6em;
