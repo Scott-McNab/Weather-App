@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<title>Js Prototype</title> 
+        
+		<link rel="stylesheet" href="prototypestyle1.css" />
+		<link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300,700,500' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="type/css" href="animate.css">
+      
+	
+	</head>
+<body>
+    
+    <h1>Change link</h1>
+    
+    <a id="myAnchor" href="http://www.twitter.com">TWITTER</a>
+<button onclick="myFunction()">Change link</button>
+    
+<script>
+
+    
+    function myFunction() {
+    document.getElementById("myAnchor").innerHTML = "DRIBBBLE";
+    document.getElementById("myAnchor").href = "https://dribbble.com";
+    document.getElementById("myAnchor").target = "_blank";
+}
+  
+</script>
+
+</body>
+</html> 
